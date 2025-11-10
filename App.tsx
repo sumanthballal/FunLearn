@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
-import Home from "@/pages/Home";
-import Learn from "@/pages/Learn";
-import LessonShell from "@/pages/LessonShell";
-import ActivityDetail from "@/pages/ActivityDetail";
-import Login from "@/pages/Login";
+import Home from "./pages/Home";
+import Learn from "./pages/Learn";
+import LessonShell from "./pages/LessonShell";
+import ActivityDetail from "./pages/ActivityDetail";
+import Login from "./pages/Login";
 
 export default function App(){
   return (

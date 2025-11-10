@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import "../index.css";
+import "./index.css";
 
 // Initialize theme quickly to avoid flash
 try{
